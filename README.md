@@ -29,4 +29,4 @@ Each token will be on a new line.
 - the token for a String is **STR**, for a string values is **STR_CONST**
 - Comments are ignored. The syntax is similar as Java:
   - *// for inline comments*
-  - */*...*/ for comments blocks*
+  - */\*...\*/ for comments blocks*
