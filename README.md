@@ -11,19 +11,19 @@ Each token will be on a new line.
 
 ### Language symbols list:
 
-|  Symbol   | Token  |  | Symbol | Token |  | Symbol | Token |
-|  ----  | ----  | ---- | ---- | ---- | ---- | ---- | ---- |
-| if | IF |  | = | ASSIGN | | ++ | INC | 
-| for | FOR |  | + | ADD_OP | | ( | LP | 
-| while | WHILE || - | SUB_OP | | ) | RP|
-| procdure | PROC | | * | MUL_OP | | { | LB|
-| return | RETURN | | / | DIV_OP | | } | RB|
-| int | INT | | % | MOD_OP | | \| | OR | 
-| else | ELSE | | < | LT | | & | AND|
-| do | DO | | < | GT | | == | EE | 
-| break | BREAK | | >= | GE | | ! | NEG | 
-| end | END | | <= | LE | | , | COMMA |
-| | | | | | | ; | SEMI |
+| Symbol   | Token  |     | Symbol | Token  |     | Symbol | Token |
+|----------|--------|-----|--------|--------|-----|--------|-------|
+| if       | IF     |     | =      | ASSIGN |     | ++     | INC   | 
+| for      | FOR    |     | +      | ADD_OP |     | (      | LP    | 
+| while    | WHILE  |     | -      | SUB_OP |     | )      | RP    |
+| procdure | PROC   |     | *      | MUL_OP |     | {      | LB    |
+| return   | RETURN |     | /      | DIV_OP |     | }      | RB    |
+| int      | INT    |     | %      | MOD_OP |     | \      | OR    | 
+| else     | ELSE   |     | <      | LT     |     | &      | AND   |
+| do       | DO     |     | <      | GT     |     | ==     | EE    | 
+| break    | BREAK  |     | >=     | GE     |     | !      | NEG   | 
+| end      | END    |     | <=     | LE     |     | ,      | COMMA |
+|          |        |     |        |        |     | ;      | SEMI  |
 - Identifier (procedure names, variable names) are alphanumeric; However, they must start with an alphabetical character. The token is **IDENT**.
 - The token for intergers is **INT_CONST**
 - the token for a String is **STR**, for a string valus is **STR_CONST**
